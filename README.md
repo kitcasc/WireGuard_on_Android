@@ -9,7 +9,7 @@ This guide walks you through setting up a personal WireGuard VPN server using an
 - A domain name (e.g., `yourname.com`)
 - A free [Cloudflare](https://cloudflare.com) account
 - Access to your home router's admin panel (for port forwarding)
-
+- This guide will only work if your network has a public IP address and allows port forwarding; it will fail if you are behind a Double NAT or CGNAT.
 ---
 
 ## 🛠️ Step 1: Setup Base Environment on the Android Phone
@@ -236,5 +236,6 @@ Leave that Termux session running in the background.
 
 ## 🎉 Done!
 Congrats — you’ve now got a 24/7 personal VPN server running off a spare Android phone, with your own domain and dynamic IP updates.
+
 
 Let me know if you found this helpful, or suggest improvements.
